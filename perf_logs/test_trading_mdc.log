@@ -1,0 +1,10 @@
+/home/othmane/llcpp/src/socket_utils.cpp:81 createSocket() 15:27:53.210500898 ip:239.0.0.102 iface:lo port:30101 is_udp:1 is_blocking:0 is_listening:1 ttl:32 SO_time:0
+/home/othmane/llcpp/trading/market_data/market_data_consumer.cpp:43 MarketDataConsumer() 15:27:53.211093736 MarketDataConsumer created inc:239.0.0.102:30101 snap:239.0.0.101:30100
+/home/othmane/llcpp/trading/market_data/market_data_consumer.cpp:115 processIncremental() 15:27:53.211118482 (recovery) buffered inc seq:5
+/home/othmane/llcpp/trading/market_data/market_data_consumer.cpp:115 processIncremental() 15:27:53.211124544 (recovery) buffered inc seq:3
+/home/othmane/llcpp/trading/market_data/market_data_consumer.cpp:115 processIncremental() 15:27:53.211129833 (recovery) buffered inc seq:4
+15:27:53.211135093 TTT T8_MarketDataConsumer_LFQueue_write 1778765273211135063
+15:27:53.211139061 TTT T8_MarketDataConsumer_LFQueue_write 1778765273211139031
+15:27:53.211143810 TTT T8_MarketDataConsumer_LFQueue_write 1778765273211143790
+15:27:53.211147947 TTT T8_MarketDataConsumer_LFQueue_write 1778765273211147916
+/home/othmane/llcpp/trading/market_data/market_data_consumer.cpp:262 finishRecovery() 15:27:53.211151804 Recovery complete -- resuming at inc seq:6

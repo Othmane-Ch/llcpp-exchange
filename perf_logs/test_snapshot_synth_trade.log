@@ -1,0 +1,5 @@
+/home/othmane/llcpp/src/socket_utils.cpp:81 createSocket() 15:27:01.606404399 ip:239.0.0.11 iface:lo port:30001 is_udp:1 is_blocking:0 is_listening:0 ttl:32 SO_time:0
+/home/othmane/llcpp/Exchange/market_data/snapshot_synthesizer.cpp:28 SnapshotSynthesizer() 15:27:01.608567470 SnapshotSynthesizer created. snap:239.0.0.11:30001
+/home/othmane/llcpp/Exchange/market_data/snapshot_synthesizer.cpp:58 run() 15:27:01.614146759
+/home/othmane/llcpp/Exchange/market_data/snapshot_synthesizer.cpp:74 run() 15:27:01.614190260 Processing MDPMarketUpdate [seq:1 MEMarketUpdate [type:TRADE ticker:0 side:BUY price:50 qty:10 oid:1 priority:1]]
+/home/othmane/llcpp/Exchange/market_data/snapshot_synthesizer.cpp:47 start() 15:27:02.613966006 SnapshotSynthesizer started.

@@ -1,0 +1,6 @@
+15:27:29.447194645 RDTSC Trading_MarketOrderBook_addOrder 6270
+15:27:29.447242704 RDTSC Trading_MarketOrderBook_updateBBO 66
+15:27:29.447249016 RDTSC Trading_MarketOrderBook_addOrder 429
+15:27:29.447253724 RDTSC Trading_MarketOrderBook_updateBBO 66
+/home/othmane/llcpp/trading/strategy/feature_engine.h:78 onTradeUpdate() 15:27:29.447258052 trade_qty:5 side:BUY ratio:1
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:27:29.447270455 MarketOrderBook ticker:0 destroyed

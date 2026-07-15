@@ -1,0 +1,6 @@
+RiskManager initialised for 8 tickers
+15:30:26.593683850 RDTSC Trading_OrderManager_moveOrder_bid 957
+15:30:26.593713154 RDTSC Trading_RiskManager_checkPreTradeRisk 33
+/home/othmane/llcpp/trading/strategy/order_manager.cpp:48 newOrder() 15:30:26.593728312 Sent NEW OMOrder[ticker:0 oid:1 side:SELL price:101 qty:5 state:PENDING_NEW]
+15:30:26.593736197 RDTSC Trading_OrderManager_newOrder 62535
+15:30:26.593740556 RDTSC Trading_OrderManager_moveOrder_ask 90321

@@ -1,0 +1,38 @@
+RiskManager initialised for 8 tickers
+/home/othmane/llcpp/trading/strategy/trade_engine.cpp:40 TradeEngine() 15:33:05.058682912 TradeEngine created. client:1
+15:33:05.059058719 RDTSC Trading_MarketOrderBook_addOrder 5907
+15:33:05.059070700 RDTSC Trading_MarketOrderBook_updateBBO 297
+/home/othmane/llcpp/trading/strategy/feature_engine.h:52 onOrderBookUpdate() 15:33:05.059076040 ticker:0 price:100 side:BUY mkt_price:nan
+15:33:05.059081090 RDTSC Trading_FeatureEngine_onOrderBookUpdate 18810
+PositionInfo::updateBBO pos:0 upnl:0 tpnl:0
+15:33:05.059085809 RDTSC Trading_PositionKeeper_updateBBO 2673
+15:33:05.059091008 RDTSC Trading_MarketOrderBook_addOrder 396
+15:33:05.059094595 RDTSC Trading_MarketOrderBook_updateBBO 33
+/home/othmane/llcpp/trading/strategy/feature_engine.h:52 onOrderBookUpdate() 15:33:05.059097951 ticker:0 price:102 side:SELL mkt_price:101
+15:33:05.059101979 RDTSC Trading_FeatureEngine_onOrderBookUpdate 13332
+PositionInfo::updateBBO pos:0 upnl:0 tpnl:0
+15:33:05.059105585 RDTSC Trading_PositionKeeper_updateBBO 825
+15:33:05.059109702 RDTSC Trading_RiskManager_checkPreTradeRisk 33
+15:33:05.059113600 TTT T10_TradeEngine_LFQueue_write 1778765585059113580
+/home/othmane/llcpp/trading/strategy/order_manager.cpp:48 newOrder() 15:33:05.059129239 Sent NEW OMOrder[ticker:0 oid:1 side:BUY price:99 qty:5 state:PENDING_NEW]
+15:33:05.059134499 RDTSC Trading_OrderManager_newOrder 69300
+15:33:05.059138176 RDTSC Trading_OrderManager_moveOrder_bid 94875
+15:33:05.059141722 RDTSC Trading_RiskManager_checkPreTradeRisk 33
+15:33:05.059145098 TTT T10_TradeEngine_LFQueue_write 1778765585059145068
+/home/othmane/llcpp/trading/strategy/order_manager.cpp:48 newOrder() 15:33:05.059149246 Sent NEW OMOrder[ticker:0 oid:2 side:SELL price:103 qty:5 state:PENDING_NEW]
+15:33:05.059153514 RDTSC Trading_OrderManager_newOrder 27918
+15:33:05.059156830 RDTSC Trading_OrderManager_moveOrder_ask 49863
+/home/othmane/llcpp/trading/strategy/order_manager.cpp:136 onOrderUpdate() 15:33:05.059166939 MEClientResponse [type:ACCEPTED client:1 ticker:0 coid:1 moid:1 side:BUY exec_qty:0 leaves_qty:5 price:99]
+PositionInfo::addFill pos:5 vol:5 rpnl:0 upnl:0 tpnl:0
+15:33:05.059174453 RDTSC Trading_PositionKeeper_addFill 5478
+PositionInfo::updateBBO pos:5 upnl:10 tpnl:10
+/home/othmane/llcpp/trading/strategy/order_manager.cpp:136 onOrderUpdate() 15:33:05.059179392 MEClientResponse [type:FILLED client:1 ticker:0 coid:1 moid:1 side:BUY exec_qty:5 leaves_qty:0 price:99]
+/home/othmane/llcpp/trading/strategy/trade_engine.cpp:89 stop() 15:33:05.059185262 TradeEngine stopping.
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.068690225 MarketOrderBook ticker:0 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.106024869 MarketOrderBook ticker:1 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.176729259 MarketOrderBook ticker:2 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.212793861 MarketOrderBook ticker:3 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.249077059 MarketOrderBook ticker:4 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.327475545 MarketOrderBook ticker:5 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.369968069 MarketOrderBook ticker:6 destroyed
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:33:06.444181932 MarketOrderBook ticker:7 destroyed

@@ -1,0 +1,9 @@
+/home/othmane/llcpp/Exchange/matcher/matching_engine.cpp:19 MatchingEngine() 15:26:46.672509798 MatchingEngine created.
+15:26:49.387333482 TTT T4t_MatchingEngine_LFQueue_write 1778765209387333452
+15:26:49.387387633 TTT T4_MatchingEngine_LFQueue_write 1778765209387387602
+15:26:49.387395147 TTT T4t_MatchingEngine_LFQueue_write 1778765209387395117
+15:26:49.387400046 TTT T4t_MatchingEngine_LFQueue_write 1778765209387400016
+15:26:49.387406008 TTT T4t_MatchingEngine_LFQueue_write 1778765209387405977
+15:26:49.387410816 TTT T4_MatchingEngine_LFQueue_write 1778765209387410765
+15:26:49.387415034 TTT T4_MatchingEngine_LFQueue_write 1778765209387415013
+/home/othmane/llcpp/Exchange/matcher/matching_engine.cpp:53 stop() 15:26:49.986161624 MatchingEngine stopping.

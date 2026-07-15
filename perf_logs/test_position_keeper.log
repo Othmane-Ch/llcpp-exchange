@@ -1,0 +1,2 @@
+PositionInfo::addFill pos:10 vol:10 rpnl:0 upnl:0 tpnl:0
+PositionInfo::addFill pos:-5 vol:5 rpnl:0 upnl:0 tpnl:0

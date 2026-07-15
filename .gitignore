@@ -1,0 +1,22 @@
+# Build trees
+build/
+build-*/
+cmake-build-*/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime logs (root-level only — perf_logs/ holds curated instrumentation data)
+/*.log
+
+# Benchmark result files (benchmarks print to stdout and append here)
+*_benchmark_results.txt
+
+# perf_analysis.py output (figures + LaTeX tables)
+perf_output/

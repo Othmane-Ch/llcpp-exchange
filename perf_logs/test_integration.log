@@ -1,0 +1,7 @@
+15:26:49.387371312 RDTSC Exchange_MEOrderBook_checkForMatch 330
+15:26:49.387381903 RDTSC Exchange_MEOrderBook_addOrder 4224
+15:26:49.387419001 RDTSC Exchange_MEOrderBook_match 62931
+15:26:49.387423280 RDTSC Exchange_MEOrderBook_checkForMatch 77055
+/home/othmane/llcpp/Exchange/matcher/me_order_book.cpp:25 ~MEOrderBook() 15:26:49.387433728 OrderBook
+MEOrderBook ticker:0
+

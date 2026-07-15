@@ -1,0 +1,4 @@
+15:28:32.630709739 RDTSC Trading_MarketOrderBook_addOrder 5280
+15:28:32.630762497 RDTSC Trading_MarketOrderBook_updateBBO 792
+15:28:32.630767406 RDTSC Trading_MarketOrderBook_updateBBO 33
+/home/othmane/llcpp/trading/strategy/market_order_book.cpp:28 ~MarketOrderBook() 15:28:32.630776193 MarketOrderBook ticker:0 destroyed
